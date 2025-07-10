@@ -135,15 +135,19 @@
             them in a cool way!
           </p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Load Images</a>
-            <a href="#" class="btn btn-secondary my-2">Load Secondary Images</a>
+            <button class="btn btn-primary my-2" id="hamsters">
+              Load Images
+            </button>
+            <button class="btn btn-secondary my-2" id="tigers">
+              Load Secondary Images
+            </button>
           </p>
         </div>
       </section>
       <div class="album py-5 bg-light">
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -161,6 +165,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -168,9 +173,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -178,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -196,6 +201,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -203,9 +209,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -213,7 +219,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -231,6 +237,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -238,9 +245,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -248,7 +255,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -266,6 +273,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -273,9 +281,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -283,7 +291,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -301,6 +309,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -308,9 +317,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -318,7 +327,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -336,6 +345,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -343,9 +353,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -353,7 +363,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -371,6 +381,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -378,9 +389,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -388,7 +399,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -406,6 +417,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -413,9 +425,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -423,7 +435,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wholeCard">
               <div class="card mb-4 shadow-sm">
                 <img
                   src="https://picsum.photos/id/237/300/200"
@@ -441,6 +453,7 @@
                   >
                     <div class="btn-group">
                       <button
+                        onclick="viewDetails(event)"
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
@@ -448,9 +461,9 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-sm btn-outline-secondary"
+                        class="btn btn-sm btn-outline-secondary hide"
                       >
-                        Edit
+                        Hide
                       </button>
                     </div>
                     <small class="text-muted">9 mins</small>
@@ -474,5 +487,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
