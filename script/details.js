@@ -22,6 +22,11 @@ const getCard = function () {
     })
     .then((obj) => {
       console.log(obj);
+      document.getElementById("imgCard").src = `${obj.src.original}`;
+      document.getElementById("name").innerText = `${obj.photographer}`;
+      document.getElementById(
+        "link"
+      ).innerHTML = `<a href="${obj.photographer_url}">Visit the photographer website</a>`;
     })
     .catch((err) => {
       console.log("errore", err);
